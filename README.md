@@ -2,7 +2,7 @@
 Librairie Javascript permettant de vérifier la validité et/ou l'existence d'un numéro de SIRET
 
 ## Installation
-Pour utiliser la librairie, téléchargez le zip et copiez `Siret.min.js` dans votre projet
+Pour utiliser la librairie, [téléchargez le zip](https://github.com/NouvelleTechno/verif-siret/releases) et copiez `Siret.min.js` dans votre projet
 
 ## Utilisation
 ### Inclure la librairie
