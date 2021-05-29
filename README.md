@@ -19,12 +19,14 @@ let siret = new Siret("00000000000000");
 Plusieurs méthodes sont à votre disposition
 #### Vérifier si le SIRET est valide (pas s'il existe)
 Utilisez la méthode `valid()` comme ci-dessous. Elle retourne un booléen indiquant si le SIRET est correct.
+
 ATTENTION: cette méthode ne vérifie pas l'existence réelle du numéro de SIRET.
 ```javascript
 siret.valid();
 ```
 #### Vérifier si le SIRET existe
 Utilisez la méthode `exists()` comme ci-dessous. Elle retourne un booléen indiquant si le SIRET est correct.
+
 ATTENTION: cette méthode utilise une API externe, elle est donc asynchrone. Elle ne garantit pas à 100% l'existence du SIRET.
 ```javascript
 siret.exists()
@@ -34,6 +36,7 @@ siret.exists()
 ```
 #### Convertir le SIRET en numéro de TVA intracommunautaire
 Utilisez la méthode `convert()` comme ci-dessous. Elle retourne le numéro de TVA intracommunautaire correspondant au SIRET
+
 ATTENTION: cette méthode ne vérifie pas l'existence réelle du numéro de SIRET.
 ```javascript
 let tva = siret.convert();
