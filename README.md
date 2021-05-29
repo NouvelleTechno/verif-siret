@@ -1,4 +1,7 @@
 # verif-siret
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b3ea666abe414d86abf71a9eb8418ade)](https://app.codacy.com/gh/NouvelleTechno/verif-siret?utm_source=github.com&utm_medium=referral&utm_content=NouvelleTechno/verif-siret&utm_campaign=Badge_Grade_Settings)
+
 Librairie Javascript permettant de vérifier la validité et/ou l'existence d'un numéro de SIRET
 
 ## Installation
